@@ -13,7 +13,7 @@ const Regsiter = () => {
   const HandelSubmit=async(e)=>{
   
     e.preventDefault();
-    const response = await axios.post('http://localhost:3009/register/signup', {...formdata
+    const response = await axios.post('https://day-43-task-forgotpassword-backend.onrender.com/register/signup', {...formdata
     })
     console.log(response);
     alert("sign up SuccessFully");
